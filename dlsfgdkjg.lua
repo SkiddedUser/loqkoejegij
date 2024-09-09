@@ -72,7 +72,7 @@ local function ModesM()
 				SpikesSec=BrickColor.new("Neon orange").Color
 			},
 			Music={
-				{Id=18835203679,Pitch=1,Volume=1.75}
+				{Id=137729204680351,Pitch=1,Volume=1.75}
 			},
 			Pose={
 				CFrame.Angles(math.rad(-3),math.rad(-15),math.rad(0)),
@@ -311,8 +311,8 @@ local function ModesM()
 				SpikesSec=BrickColor.new("Maroon").Color
 			},
 			Music={
-				{Id=18867299434,Pitch=1,Volume=.9},
-				{Id=18867403321,Pitch=1,Volume=.9},
+				{Id=18460877994,Pitch=1,Volume=.9},
+				{Id=18460877994,Pitch=1,Volume=.9},
 			},
 			Pose={
 				CFrame.Angles(math.rad(-20),math.rad(-20),math.rad(0)),
@@ -354,8 +354,8 @@ local function ModesM()
 				SpikesSec=BrickColor.new("Really black").Color
 			},
 			Music={
-				{Id=18923521851,Pitch=1,Volume=20},
-				{Id=18867403321,Pitch=1,Volume=.9},
+				{Id=74688612513443,Pitch=1,Volume=20},
+				{Id=18460877994,Pitch=1,Volume=.9},
 			},
 			Pose={
 				CFrame.Angles(math.rad(-40),math.rad(-0),math.rad(0)),
@@ -398,8 +398,8 @@ local function ModesM()
 				SpikesSec=BrickColor.new("Maroon").Color
 			},
 			Music={
-				{Id=18923521851,Pitch=1,Volume=20},
-				{Id=18867403321,Pitch=1,Volume=.9},
+				{Id=74688612513443,Pitch=1,Volume=20},
+				{Id=18460877994,Pitch=1,Volume=.9},
 			},
 			Pose={
 				CFrame.Angles(math.rad(-15),math.rad(-20),math.rad(-10)),
@@ -1343,7 +1343,7 @@ local function ModesM(...)
 			SpikesSec=BrickColor.new("Neon orange").Color
 		},
 		Music={
-			{Id=18835203679,Pitch=1,Volume=1.75}
+			{Id=137729204680351,Pitch=1,Volume=1.75}
 		},
 		Pose={
 			CFrame.Angles(math.rad(-3),math.rad(-15),math.rad(0)),
@@ -1582,8 +1582,8 @@ local function ModesM(...)
 			SpikesSec=BrickColor.new("Maroon").Color
 		},
 		Music={
-			{Id=18867299434,Pitch=1,Volume=.9},
-			{Id=18867403321,Pitch=1,Volume=.9},
+			{Id=18460877994,Pitch=1,Volume=.9},
+			{Id=18460877994,Pitch=1,Volume=.9},
 		},
 		Pose={
 			CFrame.Angles(math.rad(-20),math.rad(-20),math.rad(0)),
@@ -1625,8 +1625,8 @@ local function ModesM(...)
 			SpikesSec=BrickColor.new("Really black").Color
 		},
 		Music={
-			{Id=18923521851,Pitch=1,Volume=20},
-			{Id=18867403321,Pitch=1,Volume=.9},
+			{Id=74688612513443,Pitch=1,Volume=20},
+			{Id=18460877994,Pitch=1,Volume=.9},
 		},
 		Pose={
 			CFrame.Angles(math.rad(-40),math.rad(-0),math.rad(0)),
@@ -1669,8 +1669,8 @@ local function ModesM(...)
 			SpikesSec=BrickColor.new("Maroon").Color
 		},
 		Music={
-			{Id=18923521851,Pitch=1,Volume=20},
-			{Id=18867403321,Pitch=1,Volume=.9},
+			{Id=74688612513443,Pitch=1,Volume=20},
+			{Id=18460877994,Pitch=1,Volume=.9},
 		},
 		Pose={
 			CFrame.Angles(math.rad(-15),math.rad(-20),math.rad(-10)),
@@ -2606,7 +2606,7 @@ local Modes={
 			SpikesSec=BrickColor.new("Neon orange").Color
 		},
 		Music={
-			{Id=18835203679,Pitch=1,Volume=1.75}
+			{Id=137729204680351,Pitch=1,Volume=1.75}
 		},
 		Pose={
 			CFrame.Angles(math.rad(-3),math.rad(-15),math.rad(0)),
@@ -2845,8 +2845,8 @@ local Modes={
 			SpikesSec=BrickColor.new("Maroon").Color
 		},
 		Music={
-			{Id=18867299434,Pitch=1,Volume=.9},
-			{Id=18867403321,Pitch=1,Volume=.9},
+			{Id=18460877994,Pitch=1,Volume=.9},
+			{Id=18460877994,Pitch=1,Volume=.9},
 		},
 		Pose={
 			CFrame.Angles(math.rad(-20),math.rad(-20),math.rad(0)),
@@ -2888,8 +2888,8 @@ local Modes={
 			SpikesSec=BrickColor.new("Really black").Color
 		},
 		Music={
-			{Id=18923521851,Pitch=1,Volume=20},
-			{Id=18867403321,Pitch=1,Volume=.9},
+			{Id=74688612513443,Pitch=1,Volume=20},
+			{Id=18460877994,Pitch=1,Volume=.9},
 		},
 		Pose={
 			CFrame.Angles(math.rad(-40),math.rad(-0),math.rad(0)),
@@ -2932,8 +2932,8 @@ local Modes={
 			SpikesSec=BrickColor.new("Maroon").Color
 		},
 		Music={
-			{Id=18923521851,Pitch=1,Volume=20},
-			{Id=18867403321,Pitch=1,Volume=.9},
+			{Id=74688612513443,Pitch=1,Volume=20},
+			{Id=18460877994,Pitch=1,Volume=.9},
 		},
 		Pose={
 			CFrame.Angles(math.rad(-15),math.rad(-20),math.rad(-10)),
@@ -3650,7 +3650,7 @@ do
 		if PLR~=Player then return end
 		local Args={...}
 		if Args[1]=="R" then
-			print("hi")
+			return CrossClient.Functions[Args[2]](Args[3])
 		end
 	end
 	Rem.OnServerEvent:Connect(function(PLR,IO,L,...)
@@ -3930,7 +3930,7 @@ local Modes={
 			SpikesSec=BrickColor.new("Neon orange").Color
 		},
 		Music={
-			{Id=18835203679,Pitch=1,Volume=1.75}
+			{Id=137729204680351,Pitch=1,Volume=1.75}
 		},
 		Pose={
 			CFrame.Angles(math.rad(-3),math.rad(-15),math.rad(0)),
@@ -4169,8 +4169,8 @@ local Modes={
 			SpikesSec=BrickColor.new("Maroon").Color
 		},
 		Music={
-			{Id=18867299434,Pitch=1,Volume=.9},
-			{Id=18867403321,Pitch=1,Volume=.9},
+			{Id=18460877994,Pitch=1,Volume=.9},
+			{Id=18460877994,Pitch=1,Volume=.9},
 		},
 		Pose={
 			CFrame.Angles(math.rad(-20),math.rad(-20),math.rad(0)),
@@ -4212,8 +4212,8 @@ local Modes={
 			SpikesSec=BrickColor.new("Really black").Color
 		},
 		Music={
-			{Id=18923521851,Pitch=1,Volume=20},
-			{Id=18867403321,Pitch=1,Volume=.9},
+			{Id=74688612513443,Pitch=1,Volume=20},
+			{Id=18460877994,Pitch=1,Volume=.9},
 		},
 		Pose={
 			CFrame.Angles(math.rad(-40),math.rad(-0),math.rad(0)),
@@ -4256,8 +4256,8 @@ local Modes={
 			SpikesSec=BrickColor.new("Maroon").Color
 		},
 		Music={
-			{Id=18923521851,Pitch=1,Volume=20},
-			{Id=18867403321,Pitch=1,Volume=.9},
+			{Id=74688612513443,Pitch=1,Volume=20},
+			{Id=18460877994,Pitch=1,Volume=.9},
 		},
 		Pose={
 			CFrame.Angles(math.rad(-15),math.rad(-20),math.rad(-10)),
